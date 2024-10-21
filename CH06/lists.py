@@ -23,7 +23,9 @@ def demo02():
     print()
     
     print(f'First: {list_of_numbers[0]}') # get the FIRST value
+
     print(f'Last: {list_of_numbers[len(list_of_numbers) - 1]}') # get the LAST value
+    print(f'Last: {list_of_numbers[-1]}')
     
     print()
     
@@ -33,4 +35,37 @@ def demo02():
     print(list_of_numbers)
 
 
-demo02()
+def demo03():
+    list_of_words = []
+    list_of_words.append(['a', 'b', 'c'])
+    print(list_of_words)
+    list_of_words.append(['d', 'e', 'f'])
+    print(list_of_words)
+
+
+def demo04():
+    my_list = ["Yogi", "Maggie", "Quinnie", "BB-8"]
+
+    # for item in my_list:
+    #     print(f'{item}')
+    
+    for index, item in enumerate(my_list):
+        print(f'{index+1}. {item}')
+
+    # my_list.remove("Maggie")
+    print()
+
+    item_number_to_remove = int(input('Enter the number of the item to remove: '))
+    my_list.pop(item_number_to_remove-1)
+
+    for index, item in enumerate(my_list):
+        print(f'{index+1}. {item}')    
+
+
+
+
+
+# demo01()
+# demo02()
+# demo03()
+demo04()

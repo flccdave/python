@@ -9,7 +9,7 @@ def display_menu():
 
 def main():
     
-    task_list = ["1. ABC", "2. DEF", "3. GHI"]
+    task_list = ["ABC", "DEF", "GHI"]
     print(task_list)
     # print(type(task_list))
 
