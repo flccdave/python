@@ -1,4 +1,4 @@
-text_file = open("/workspaces/python/CH07/text.txt", "a")
+text_file = open("text.txt", "a")
 # print(text_file)
 
 print('Writable? ', text_file.writable())
