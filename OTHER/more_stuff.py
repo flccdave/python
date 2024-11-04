@@ -40,6 +40,12 @@ def rec_redux():
     # print('*****')
 
 
+def join_demo():
+    my_list = ['a', 'b', 'c']
+    print(my_list)
+
+    new_string = ''.join(my_list,)
+    print(new_string)
 
 
 
@@ -47,7 +53,17 @@ def rec_redux():
 
 
 
-rec_redux()
+
+
+
+
+
+
+
+
+
+
+# rec_redux()
 # random_demo()
-
+join_demo()
 
