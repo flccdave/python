@@ -1,0 +1,5 @@
+print('Welcome to the Mathenator2000')
+print()
+print('Please choose from the following menu:')
+print('  1. Compute area of a circle')
+print('  2. Compute area of a rectangle')
