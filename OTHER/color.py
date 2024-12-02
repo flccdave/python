@@ -1,9 +1,3 @@
-def abc():
-    '''
-    This function will print an exclamation of pain.
-    '''
-    print("\n\nAAAAAAAA\n\n")
-
 # Shamelessly stolen from:
 # https://stackoverflow.com/questions/8924173/how-can-i-print-bold-text-in-python
 
@@ -22,6 +16,3 @@ class color:
    END = '\033[0m'
 
 print(color.RED + 'Hello, World!' + color.END)    
-
-if __name__ == "__main__":
-    abc()

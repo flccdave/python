@@ -3,6 +3,8 @@ import aaa
 # print('welcome to mathinator')
 # aaa.abc()
 
+aaa.
+
 def menu():
     print('Please choose from the following menu:')
     print('  1. Compute area of a circle')
